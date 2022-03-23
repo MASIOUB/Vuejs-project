@@ -2,9 +2,7 @@
   <div id="app">
     <NavbarContent />
     <div class="content">
-      you clicked on this :
-      <br />
-      count is {{ counter }} fois
+      you clicked on this {{ counter }} times
       <br />
       <div class="btn">
         <button @click="counter++">click</button>
